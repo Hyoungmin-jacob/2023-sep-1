@@ -1,0 +1,32 @@
+:root {
+    --text-color: #f0f4f5;
+    --background-color: #transparent;
+    --accent-color: #8f8f8f;
+    --hover-color: #65aa48;
+}
+
+.hs_container {
+    color: var(--text-color);
+    text-align: center;
+}
+
+.hs_title strong {
+    display: block;
+    font-size: 3rem;
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+.hs_title p {
+    display: block;
+    font-size: 1.5rem;
+    color: var(--text-color);
+    max-width: fit-content;
+    margin: 30px auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.hs_container p:hover {
+    background-color: var(--accent-color);
+}

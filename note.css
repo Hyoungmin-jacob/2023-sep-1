@@ -1,0 +1,100 @@
+:root {
+    --text-color: #f0f4f5;
+    --background-color: #transparent;
+    --accent-color: #8f8f8f;
+    --hover-color: #65aa48;
+}
+
+.note_container {
+    color: var(--text-color);
+}
+
+.note_wrap {
+    width: 1000px;
+    margin: 100px auto;
+}
+
+.note_title {
+    margin-bottom: 40px;
+}
+
+.note_title strong {
+    font-size: 2.5rem;
+}
+
+.note_title p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.btn_wrap {
+    margin-top: 30px;
+    font-size: 0;
+    text-align: center;
+}
+.btn_wrap a {
+    display: inline-block;
+    min-width: 100px;
+    border: 1px solid var(--text-color);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+.btn_wrap a:first-child {
+    margin-left: 0;
+}
+
+.btn_wrap a:hover {
+    background-color: var(--hover-color);
+}
+
+.note_list_wrap {
+    padding: auto;
+}
+
+.note_list {
+    width: 100%;
+    border-top: 1px dotted var(--text-color);
+}
+
+.note_list th,
+.note_list td {
+    padding: 10px;
+    font-size: 0.9rem;
+}
+
+.note_list td {
+    text-align: center;
+}
+
+.tbody_td_title {
+    text-align: left !important;
+}
+
+.tbody_td_title:hover {
+    text-decoration: 1px underline;
+}
+
+.note_list tr {
+    border-bottom: 1px solid #b3b3b3;
+}
+
+.note_page {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.note_page a {
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.note_page a:first-child {
+    margin-left: 0;
+}
+
+.note_page a:hover {
+    color: var(--hover-color);
+}
