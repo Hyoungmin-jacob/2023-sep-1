@@ -222,7 +222,8 @@ caption {
 }
 
 .hs_container {
-    display: none;
+    display: contents;
+    font-size: smaller;
 }
 
 .rdb_wrap h1 {
